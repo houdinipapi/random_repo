@@ -1,0 +1,48 @@
+C- means "control key", Hold down the control key while
+pressing the next key
+M- means "meta key", (“Escape” in the lab, on other
+computers sometimes “Alt”). For meta commands with the
+Escape key, press the Escape key and then release it,
+then press the other key. Thus M-f stands for the
+keyboard sequence "press and release the Escape key", "
+press f".
+C-x C-s Save file
+C-x C-w Write file out with new name (i.e. 'save as')
+C-x C-f Find (open) file. (If the file doesn't exist, it will be
+created.)
+C-x C-c Quit Emacs
+C-z Leave Emacs temporarily (return with "fg" ("foreground"))
+C-g Abort an Emacs command (get out of trouble)
+C-_ Undo
+C-x 2 Split Emacs screen into two horizontally
+C-x 3 Split Emacs screen into two vertically
+C-x o move from one half screen to another
+C-x 1 Return to only one screen (whichever your cursor is in)
+C-x C-b List the current buffers
+C-x b Switch to a different active buffer
+C-k Kill text from cursor to end of line (Cut text out)
+C-y Yank back killed text. (Paste text in)
+C-l Redisplay the screen if it is garbled
+Commands to move about the screen (can also use the arrow keys.)
+C-f Move cursor forward one character
+C-b Move cursor backwards one character
+C-n Move cursor to next line
+C-p Move cursor to previous line
+C-a Move cursor to beginning of line
+C-e Move cursor to end of line
+C-v Go forward one screen
+M-v Go backward one screen
+M-f Move cursor forward one word
+M-b Move cursor backwards one word
+M-> Move to end of file
+M-< Move to beginning of file
+C-u 7 C-n Move forward 7 lines
+C-u 10 C-p Move back 10 lines
+To go to a specific line: Type M-x goto-line <Enter>, then
+type the line number followed by <Enter>. There are also
+shortcuts. Type the command "help -q emacs goto" in a local
+window to find out about it. (Local shortcut is M-x #).
+Emacs has an excellent on-line help tutorial. To use it,
+start up emacs. When you are in emacs, type C-h, then type
+the letter "t". Follow directions. When you wish to leave
+the tutorial, type C-x C-c.
